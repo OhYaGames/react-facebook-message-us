@@ -1,0 +1,38 @@
+{
+  "name": "react-facebook-message-us",
+  "version": "0.0.1",
+  "description": "React component that adds friendly Facebook Messenger to your website so your users can chat with you.",
+  "main": "lib/react-facebook-message-us.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhYaGames/react-facebook-message-us.git"
+  },
+  "scripts": {
+    "compile": "babel --presets react src --out-dir lib",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "react",
+    "facebook",
+    "messenger",
+    "intercom",
+    "chat"
+  ],
+  "dependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0",
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "author": "Oh Ya Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OhYaGames/react-facebook-message-us/issues"
+  },
+  "homepage": "https://github.com/OhYaGames/react-facebook-message-us#readme"
+}
